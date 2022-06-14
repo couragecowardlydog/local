@@ -2,4 +2,6 @@ spring:
   application:
     name: micronautdemo
 app:
-  defaultImage: jo
+  defaultImage: ${vat.price}
+
+  
